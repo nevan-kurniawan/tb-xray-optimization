@@ -1,0 +1,25 @@
+# PyCharm and IDE specific files
+.idea/
+
+# Operating System files
+.DS_Store
+
+# Python virtual environment and cache
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data, Models, and other large artifacts
+data/
+*.csv
+*.h5
+*.pth
+*.db
+
+# Secrets and configuration files
+.env
+config.ini
