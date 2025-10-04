@@ -1,0 +1,11 @@
+{
+    "filters1": 80,
+    "kernel1": "5x5",
+    "pool1": "max",
+    "filters2": 160,
+    "kernel2": "3x3",
+    "pool2": "max",
+    "filters3": 512,
+    "kernel3": "7x7",
+    "pool3": "max"
+}

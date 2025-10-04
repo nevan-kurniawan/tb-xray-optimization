@@ -1,0 +1,11 @@
+{
+    "filters1": 32,
+    "kernel1": "5x5",
+    "pool1": "average",
+    "filters2": 256,
+    "kernel2": "5x5",
+    "pool2": "max",
+    "filters3": 448,
+    "kernel3": "5x5",
+    "pool3": "max"
+}
