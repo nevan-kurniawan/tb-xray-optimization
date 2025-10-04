@@ -60,29 +60,44 @@ tb-xray-optimization/
 
 ## Setup and Installation
 
-To set up the environment and run the experiments, please follow these steps.
+Follow these steps to set up the environment and run the experiments.
 
-1.  **Clone the Repository**
-    ```bash
-    git clone [https://github.com/](https://github.com/)[YOUR-USERNAME]/tb-xray-optimization.git
-    cd tb-xray-optimization
-    ```
+### 1. Clone the Repository
 
-2.  **Download the Data**
-    -   Download the "Tuberculosis (TB) Chest X-ray Database" from [this Kaggle page](https://www.kaggle.com/datasets/tawsifurrahman/tuberculosis-tb-chest-xray-dataset).
-    -   Extract the archive and place the `TB_Chest_Radiography_Database` folder inside the `data/tuberculosis-tb-chest-xray-dataset` directory.
+Clone this GitHub repository to your local machine:
+```bash
+git clone https://github.com/nevan-kurniawan/tb-xray-optimization.git
+cd tb-xray-optimization
+````
 
-3.  **Create a Virtual Environment and Install Dependencies**
-    It is highly recommended to use a virtual environment.
-    ```bash
-    # Create a virtual environment (e.g., using venv)
-    python -m venv .venv
-    # Activate it
-    source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
+### 2\. Download the Dataset and Model Artifacts
 
-    # Install all required packages
-    pip install -r requirements.txt
-    ```
+The repository contains the code, but you must download the data and large model files separately.
+
+*   **Dataset (from Kaggle):**
+    *   Download the "Tuberculosis (TB) Chest X-ray Database" from 
+        [this Kaggle page](https://www.kaggle.com/datasets/tawsifurrahman/tuberculosis-tb-chest-xray-dataset)
+        .
+    *   Extract the archive and place the `TB_Chest_Radiography_Database` folder inside the `data/tuberculosis-tb-chest-xray-dataset` directory at the root of this project.
+*   **Model Weights and Results (from Zenodo):**
+    *   The pre-trained weights, optimization results, and final trained models are permanently archived on Zenodo. Download the `.zip` file from the following DOI:
+        **DOI:** `10.5281/zenodo.17267135`
+    *   Extract the contents of the `.zip` file (`models/`, `weights/`, and `results/` directories) into the root of this project directory.
+    *   **Attribution:** The RadImageNet weights included in the Zenodo archive were obtained from their official source. The original publication for the RadImageNet dataset is: _Mei, X., et al. (2022). RadImageNet: An Open Radiologic Deep Learning Research Dataset for Effective Transfer Learning. Radiology: Artificial Intelligence, 4(5)._
+
+### 3\. Create a Virtual Environment and Install Dependencies
+
+It is highly recommended to use a virtual environment. From the project's root directory, run the following commands:
+
+```
+# Create a virtual environment (e.g., using venv)
+python -m venv .venv
+# Activate it
+source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
+
+# Install all required packages from requirements.txt
+pip install -r requirements.txt
+```
 
 ## Experimental Workflow
 
