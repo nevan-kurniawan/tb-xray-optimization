@@ -80,7 +80,7 @@ The repository contains the code, but you must download the data and large model
         .
     *   Extract the archive and place the `TB_Chest_Radiography_Database` folder inside the `data/tuberculosis-tb-chest-xray-dataset` directory at the root of this project.
 *   **Model Weights and Results (from Zenodo):**
-    *   The pre-trained weights, optimization results, and final trained models are permanently archived on Zenodo. Download the `.zip` file from the following DOI: `10.5281/zenodo.17267135`
+    *   The pre-trained weights, optimization results, and final trained models are permanently archived on Zenodo. Download the `.zip` file from the following DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17267134.svg)](https://doi.org/10.5281/zenodo.17267134)
     *   Extract the contents of the `.zip` file (`models/`, `weights/`, and `results/` directories) into the root of this project directory.
     *   **Attribution:** The RadImageNet weights included in the Zenodo archive were obtained from their official source. The original publication for the RadImageNet dataset is: _Mei, X., et al. (2022). RadImageNet: An Open Radiologic Deep Learning Research Dataset for Effective Transfer Learning. Radiology: Artificial Intelligence, 4(5)._
 
