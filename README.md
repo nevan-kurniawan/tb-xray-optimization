@@ -5,6 +5,7 @@ This repository contains the official source code and experimental artifacts for
 > **Optimizing Custom Convolutional Blocks for Pre-trained CNNs in Tuberculosis X-ray Analysis via Bayesian Optimization**  
 > **Authors**: _Nicholas Nevan Kurniawan, Reynard Amadeus Joshua, Ivan Sebastian Edbert, Alvina Aulia_  
 > **Conference:** CENIM 2025
+> **Link:** https://ieeexplore.ieee.org/document/11325829
 
 ## Abstract
 
